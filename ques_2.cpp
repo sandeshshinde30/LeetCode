@@ -50,7 +50,8 @@ public:
             temp1 = temp1->next;
         }
 
-        return temp->next;
+
+        // return temp->next;
 
         // long n1 = extractNum(l1);
         // long n2 = extractNum(l2);
@@ -76,7 +77,7 @@ public:
         //     l3 = l3->next;
         // }
 
-        // return temp->next;
+        return temp->next;
     }
 };
 
