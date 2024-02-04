@@ -3,6 +3,7 @@ public:
     int majorityElement(vector<int>& nums) {
        
         int s = nums.size()/2;
+        int a;
         sort(nums.begin(),nums.end());
         int c = 1;
 
